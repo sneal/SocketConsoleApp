@@ -1,0 +1,7 @@
+---
+applications:
+- name: socketconsole
+  host: socketconsole-${random-word}
+  memory: 512m
+  stack: windows2012R2
+  buildpack: binary_buildpack
